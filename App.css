@@ -1,0 +1,244 @@
+body {
+    background-color: #1d1d1d;
+    color: whitesmoke;
+  
+  }
+  
+  
+  img {
+    height: 50px;
+    width: 50px;
+  
+  
+  
+  }
+  
+  .logoImg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  
+  
+  }
+  
+  
+  .nameClass {
+    margin-top: 6rem;
+  
+    font-family: Roboto Mono;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 500;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .logoClass {
+    height: 5rem;
+    width: 10rem;
+    padding: 25px;
+  
+  }
+  
+  .backgroundColor {
+    background-color: rgb(rgb(104, 16, 16));
+    backdrop-filter: blur(5px);
+  
+  }
+  
+  
+  .fontClass {
+    font-family: Roboto Mono;
+
+  }
+  
+  .cardClass {
+    height: 5em;
+    width: 25rem;
+  
+  }
+  
+  
+  
+  
+  .nineStarsAnimation {
+  
+    position: absolute;
+    animation: ninestarsmove 3s forwards ease-out;
+    animation-direction: normal;
+  
+  }
+  
+  
+  @keyframes ninestarsmove {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+  
+  
+    100% {
+      left: 25rem;
+      top: 0rem;
+  
+    }
+  }
+  
+  .ramtechAnimation {
+  
+    position: absolute;
+    animation: ramtechmove 5s forwards ease-out;
+    animation-direction: normal;
+  
+  }
+  
+  @keyframes ramtechmove {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+  
+    50% {
+      left: 25rem;
+      top: 0rem
+    }
+  
+    100% {
+      left: 50rem;
+  
+      top: 0rem;
+  
+    }
+  }
+  
+  
+  /* .Anim {
+    margin: 500px;
+  
+    /* margin-top: 100rem; */
+    /* margin-left: 500px; */
+    /* height: 10rem;
+    width: 200px;
+    border-width: 50px;
+    border-color: aqua;
+    background-color: aqua;
+    position: relative;
+    transform: translateY(150px);
+    transition: 2s all ease
+  } */ 
+  
+  .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  
+  }
+  
+  
+  
+  .typedOut {
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+      typing 2s alternate infinite;
+  
+  
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%
+    }
+  
+    to {
+      width: 85%
+    }
+  }
+
+
+.counter-container{
+  background-color: beige;
+  margin-top:100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+button{
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  border:1px solid black;
+  background-color:green;
+}
+
+button:disabled{
+  background-color: red;
+  color:whitesmoke;
+}
+
+
+.count-text{
+  color:black;
+}
+
+h1, h2, h3, h4, h5, h6,p{
+  margin:0px;
+
+}
+
+.clear-fix{
+  width:50px;
+}
+.center-layout{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+
+.todos-container{
+  width: 50%;
+  min-height:500px;
+  background-color:aquamarine;
+  border-radius: 10px;;
+
+}
+
+.form-header{
+margin:50px;
+
+}
+
+.todoButton{
+  border-radius: 10px;
+  height:35px;
+  width:80px;
+  margin:10px;
+
+}
+
+.list-item{
+
+  width: 50%;
+  height:50px;
+  background-color: blue;
+  margin-top: 5px;
+  border-radius: 10px;;
+  color:yellow;
+}
